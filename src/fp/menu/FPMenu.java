@@ -39,6 +39,7 @@ public class FPMenu {
         float area = 0;
         switch(op){
             case 1:
+               
                 area = areaCuadrado();
                 break;
             case 2:
@@ -62,9 +63,9 @@ public class FPMenu {
     }
     
     public static float areaCuadrado(){
-        float a,area;
-        a = solicitarDatos("lado");
-        area = a*a;
+        float l,area;
+        l = solicitarDatos("lado");
+        area = l*l;
         return area;
     }
      public static float areaCirculo(){
